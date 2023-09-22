@@ -4,8 +4,10 @@
     {
         static void Main(string[] args)
         {
+            
+
             WeekDays weekDays = new WeekDays();
-            weekDays.DayOfWeek = 12;
+            weekDays.DayOfWeek = 3;
 
             
         }

@@ -8,6 +8,7 @@ namespace ConsoleApp6
 {
     internal class WeekDays
     {
+        public string[] days = { "Dushanba", "Seshanba", "Chorshanba", "Payshanba", "Juma", "Shanba", "Yakshanba" };
         private int _dayOfWeek;
         public int DayOfWeek
         {
@@ -20,6 +21,7 @@ namespace ConsoleApp6
                 if (value > 0 && value < 8)
                 {
                     _dayOfWeek = value;
+                    Console.WriteLine($"Xaftaning:{days[_dayOfWeek-1]} kuni");
                 }
                 else
                 {
